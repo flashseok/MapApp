@@ -12,7 +12,7 @@ import MapKit
 // 관찰 가능오브젝트 만들고
 class LocationsViewModel: ObservableObject {
     
-    // 변경될때마다 뿌려줌.
+    // 변경될 때마다 뿌려줌.
     // All loaded locations
     @Published var locations: [Location]
     
@@ -33,6 +33,13 @@ class LocationsViewModel: ObservableObject {
     
     // Show list of locations
     @Published var showLocationList: Bool = false
+    
+    // Show location detail via sheet
+    @Published var sheetLocation: Location? = nil
+    
+    @Published var region: MKCoordinateRegion = MKCoordinateRegion()
+    
+    
     
     init() {
         print(#function)
