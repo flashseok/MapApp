@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC63A60B29B0BFE500B4F919 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC63A60A29B0BFE500B4F919 /* LocationView.swift */; };
+		CC63A60D29B0C2D400B4F919 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC63A60C29B0C2D400B4F919 /* LocationsViewModel.swift */; };
 		CCD5644A29AFA6FE006124D8 /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5644929AFA6FE006124D8 /* MapAppApp.swift */; };
 		CCD5644C29AFA6FE006124D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5644B29AFA6FE006124D8 /* ContentView.swift */; };
 		CCD5645129AFA6FF006124D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD5645029AFA6FF006124D8 /* Preview Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC63A60A29B0BFE500B4F919 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		CC63A60C29B0C2D400B4F919 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		CCD5644629AFA6FE006124D8 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD5644929AFA6FE006124D8 /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
 		CCD5644B29AFA6FE006124D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		CCD5645A29AFA858006124D8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC63A60A29B0BFE500B4F919 /* LocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		CCD5645B29AFA85E006124D8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CC63A60C29B0C2D400B4F919 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD5646029AFA95A006124D8 /* LocationsDataService.swift in Sources */,
+				CC63A60D29B0C2D400B4F919 /* LocationsViewModel.swift in Sources */,
 				CCD5644C29AFA6FE006124D8 /* ContentView.swift in Sources */,
+				CC63A60B29B0BFE500B4F919 /* LocationView.swift in Sources */,
 				CCD5645D29AFA888006124D8 /* Location.swift in Sources */,
 				CCD5644A29AFA6FE006124D8 /* MapAppApp.swift in Sources */,
 			);
